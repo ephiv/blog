@@ -1,0 +1,9 @@
+{% assign site_root = site.github.url | default: site.baseurl | default: '' %}
+<nav class="site-nav" aria-label="Primary">
+  <a class="site-logo" href="{{ site_root }}/" aria-label="{{ site.title }} home">
+    <span class="brand-mark">{{ site.brand_mark | default: site.title | slice: 0, 2 }}</span>
+  </a>
+  {% for item in site.navigation %}
+  <a href="{{ site_root }}{{ item.url }}"{% if page.active_section == item.id %} class="active"{% endif %}>{{ item.title }}</a>
+  {% endfor %}
+</nav>

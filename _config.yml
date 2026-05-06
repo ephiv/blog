@@ -1,15 +1,51 @@
 title: blog
-description: "this is a blog"
-baseurl: "" # leave blank for user.github.io sites
+description: "A text-first Jekyll blog."
+lang: en
+baseurl: ""
 url: "https://ephiv.github.io"
-theme: minima
+permalink: /:year/:month/:day/:title/
 
-# Permalink structure for posts
-permalink: /blog/:year/:month/:day/:title/
+navigation:
+  - id: home
+    title: home
+    url: /
+  - id: blog
+    title: blog
+    url: /posts/
+  - id: about
+    title: about
+    url: /about/
 
-# Plugins (optional for feed, etc)
+brand_mark: ep
+footer_text: "Built with Jekyll. Comments run through giscus."
+
+giscus:
+  repo: "ephiv/blog"
+  repo_id: ""
+  category: "Announcements"
+  category_id: ""
+  mapping: "pathname"
+  strict: "0"
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: "bottom"
+  theme: "light"
+  lang: "en"
+  loading: "lazy"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      active_section: blog
+  - scope:
+      path: ""
+    values:
+      layout: page
+
 plugins:
   - jekyll-feed
 
-# Markdown processor
 markdown: kramdown
