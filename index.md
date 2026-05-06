@@ -8,7 +8,6 @@ active_section: home
 <p class="lead">{{ site.description }}</p>
 
 <div class="meta-block">
-  <p><strong>feed:</strong> <a href="{{ site.github.url | default: site.baseurl | default: '' }}/feed.xml">subscribe to the feed</a></p>
   <p><strong>comments:</strong> every post is wired for giscus-backed discussions</p>
   {% if site.posts.first %}
   <p><strong>latest:</strong> <a href="{{ site.github.url | default: site.baseurl | default: '' }}{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></p>
@@ -16,8 +15,8 @@ active_section: home
 </div>
 
 <section class="section-space">
-  <h2>what this is</h2>
-  <p>This blog keeps the same quiet, text-first visual direction as <code>ephiv.github.io</code>: narrow reading width, restrained teal accents, simple navigation, and content that stays easy to scan.</p>
+  <h2>the only niche</h2>
+  <p>text-first like <code>ephiv.github.io</code></p>
 </section>
 
 <section class="section-space">

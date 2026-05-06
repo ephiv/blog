@@ -1,5 +1,5 @@
 title: blog
-description: "A text-first Jekyll blog."
+description: "a text-first Jekyll blog."
 lang: en
 baseurl: ""
 url: "https://ephiv.github.io"
@@ -17,13 +17,13 @@ navigation:
     url: /about/
 
 brand_mark: ep
-footer_text: "Built with Jekyll. Comments run through giscus."
+footer_text: "thanks to Jekyll and giscus"
 
 giscus:
   repo: "ephiv/blog"
-  repo_id: ""
+  repo_id: "R_kgDOSVjB5w"
   category: "Announcements"
-  category_id: ""
+  category_id: "DIC_kwDOSVjB584C8bPe"
   mapping: "pathname"
   strict: "0"
   reactions_enabled: "1"
