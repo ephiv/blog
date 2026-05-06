@@ -1,0 +1,15 @@
+title: blog
+description: "this is a blog"
+baseurl: "" # leave blank for user.github.io sites
+url: "https://ephiv.github.io"
+theme: minima
+
+# Permalink structure for posts
+permalink: /blog/:year/:month/:day/:title/
+
+# Plugins (optional for feed, etc)
+plugins:
+  - jekyll-feed
+
+# Markdown processor
+markdown: kramdown
