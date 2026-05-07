@@ -16,7 +16,6 @@ navigation:
     title: about
     url: /about/
 
-brand_mark: [](./assets/images/avatar.jpg)
 footer_text: "thanks to Jekyll and giscus"
 
 giscus:
