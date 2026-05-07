@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: home
 active_section: home
 ---
 <p class="eyebrow">journal</p>

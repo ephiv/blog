@@ -1,9 +1,9 @@
 ---
-title: Blog
+title: blog
 permalink: /posts/
 active_section: blog
 eyebrow: writing
-lead: Notes, updates, and anything worth keeping searchable.
+lead: everything
 ---
 <div class="post-list">
   {% if site.posts.size > 0 %}
