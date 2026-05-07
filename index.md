@@ -7,16 +7,9 @@ active_section: home
 <h1>{{ site.title }}</h1>
 <p class="lead">{{ site.description }}</p>
 
-<div class="meta-block">
-  <p><strong>comments:</strong> every post is wired for giscus-backed discussions</p>
-  {% if site.posts.first %}
-  <p><strong>latest:</strong> <a href="{{ site.github.url | default: site.baseurl | default: '' }}{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></p>
-  {% endif %}
-</div>
-
 <section class="section-space">
-  <h2>the only niche</h2>
-  <p>text-first like <code>ephiv.github.io</code></p>
+  <h2>niche</h2>
+  <p>text-first like <code>ephiv.github.io</code>, markdown shell stuff, found out it's great for reading and to write a blog in</p>
 </section>
 
 <section class="section-space">
@@ -30,9 +23,4 @@ active_section: home
     </article>
     {% endfor %}
   </div>
-</section>
-
-<section class="section-space">
-  <h2>how to keep it moving</h2>
-  <p>Write new posts in <code>_posts/</code> using standard Jekyll filenames, then fill in the giscus IDs in <code>_config.yml</code> once Discussions are enabled on the repository.</p>
 </section>
