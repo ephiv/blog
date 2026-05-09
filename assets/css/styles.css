@@ -136,14 +136,6 @@ blockquote {
   display: block;
 }
 
-.eyebrow {
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-  margin: 0 0 10px;
-  text-transform: lowercase;
-}
-
 h1,
 h2,
 h3 {

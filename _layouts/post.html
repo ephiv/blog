@@ -3,7 +3,6 @@ layout: default
 ---
 <article class="post-entry">
   <header class="post-header">
-    <p class="eyebrow">{{ page.eyebrow | default: "blog post" }}</p>
     <h1>{{ page.title }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>

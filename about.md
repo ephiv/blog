@@ -2,7 +2,6 @@
 title: about
 permalink: /about/
 active_section: about
-eyebrow: profile
 lead: what is this and where it's going
 ---
 

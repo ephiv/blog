@@ -2,7 +2,6 @@
 title: blog
 permalink: /posts/
 active_section: blog
-eyebrow: writing
 lead: everything
 ---
 <div class="post-list">
