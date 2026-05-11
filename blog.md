@@ -2,7 +2,7 @@
 title: blog
 permalink: /posts/
 active_section: blog
-lead: everything
+lead: all of the blogs are shown in alphanumeric order below, the name format is yyyy-mm-dd-{name here}
 ---
 <div class="post-list">
   {% if site.posts.size > 0 %}
